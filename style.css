@@ -1,0 +1,479 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    
+    background: url(foto/19c1ee1cf4832fd108b8160e6089da8d.jpg);
+    background-size: cover;
+    background-position: center center;
+   color:#fff;
+   width: auto;
+   height: auto;
+}
+.color{
+    color: red;
+}
+.section1 .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.section1 .contenido-section header{
+    padding: 30px;
+}
+.section1 .contenido-section header nav{
+    position: fixed;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left:20px;
+    background:#750505;
+    display: none;
+    margin-top: 2px;
+}
+.section1 .contenido-section header nav a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0px;
+    font-weight: 100;
+   
+}
+
+ 
+/*.section1 .contenido-section header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow:#750505 0 4px;
+    font-family:cursive
+}
+.section1 .contenido-section header .logo .color{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow:#750505 0 4px;
+    font-family:cursive;
+}*/
+.section1 .contenido-section .nav-bar{
+    position: fixed;
+    background-color: #750505;
+    font-size: 20px;
+    width : 50px;
+    height: 50px;
+    border-radius: 70%;
+    line-height: 50px;
+    cursor:pointer;
+}
+.section1 .contenido-section .nav-bar :hover{
+    color: #fff;
+    box-shadow: 0 0 20px #fff;
+}
+.section1 .contenido-section .nav-bar #nav{
+    height: 255px;
+    margin-left: 17px;
+}
+.section1 .contenido-section .nav-bar #nav :hover{
+    color: #cac2c2;
+    box-shadow: none;
+}
+.section1 .contenido-section .info{
+    padding-bottom: 100px ;
+}
+.section1 .contenido-section .info h1{
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section1 .contenido-section .info h2{
+font-size:larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section1 .contenido-section .info .redes{
+    margin: 20px 0;
+}
+
+.section1 .contenido-section .info .redes a{
+   display: inline-block;
+   background-color:rgb(109, 7, 7);
+   color: #fff;
+   border-radius: 50%;
+   border: 1px solid rgb(74, 75, 76);
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   margin-left:20px ;
+}
+.section1 .contenido-section .info .redes a :hover{
+    color: #000;
+    box-shadow: 0 0 20px #fff;
+}
+.section1 .contenido-section .foto{
+    position: relative;
+}
+.section1 .contenido-section .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: #1e1e1e 3px solid;
+    position: absolute;
+    left: 40%;
+    top :-100px;
+
+}
+
+/* segundo section*/
+.sobremi{
+    background-color: #f2e7e7; /*#dedada*/
+    text-align: center;
+    padding: 110px;
+}
+.sobremi .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px
+}
+.h2_secc{
+font-size: 2rem;
+font-family: Yellowtail;
+padding-bottom: 10px;
+}
+.h3_secc{
+ font-size: 30px;
+ text-transform: uppercase;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+
+.sobremi .contenido-seccion p{
+    max-width: 900px;
+    margin: auto;
+    color: #000;
+    font-weight: 300;
+    font-size:18px;
+    
+}
+
+.sobremi .contenido-seccion .fila{
+   padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.sobremi .contenido-seccion .fila .col .titulo{
+    font-size: medium;
+    font-weight: bold;
+ }
+ .sobremi .contenido-seccion .fila .col p{
+    font-size: medium;
+    font-family:"Gill Sans", sans-serif;;
+    text-align:center;  
+    margin-top: 2px;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+/* iconos */
+.sobremi .contenido-seccion .fila .col i{
+color: #750505;
+display: inline-block;
+width:40px ;
+height: 40px;
+border: 2px solid #750505;
+border-radius: 50%;
+line-height: 40px;
+}
+
+.fila .col span{
+   display: block;
+   margin-top: 3px; 
+   color: #000;
+}
+
+/* seccion habilidades*/
+
+.habilidades{
+    padding: 80px 100px 0 ;
+    text-align: center;
+    background: url(foto/19c1ee1cf4832fd108b8160e6089da8d.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding:10px;
+    
+}
+.habilidades .contenido-seccion .titulo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+ .habilidades .contenido-seccion .fila span{
+display: block; 
+justify-content: space-between;
+margin-top: 30px;
+color: #fff;
+}
+.habilidades .contenido-seccion .fila .col{
+  
+ text-align: center;
+ font-size: 20px;
+ 
+}
+
+.habilidades .contenido-seccion .fila .col .progress{
+    margin-right: 60px;
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: #6e6e6e;
+}
+
+/* cubos para completar
+
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid rgb(67, 20, 20);
+    padding: 2px;
+    border-radius: 3px;
+}
+/*.habilidades .contenido-seccion .barra .e{
+    width: 20px;
+    height: 30px;
+    background-color: #c59898;
+    margin-right:2px;
+}
+.habilidades .contenido-seccion .barra .f{
+    width: 20px;
+    height: 30px;
+    background-color: #f20f0f;
+    margin-right:1px;
+}*/
+
+.preparacion{
+    background-color: #f2e7e7;
+    padding: 40px 20px 100px;
+    text-align: center;
+}
+.preparacion .contenido-preparacion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.preparacion .contenido-preparacion h3{
+    margin-top: 70px;
+    font-size:30px;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.preparacion .contenido-preparacion .informacion{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.preparacion .contenido-preparacion .informacion .col{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.preparacion .contenido-preparacion .informacion .col .titulo{
+    display: inline-block;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: #d70505b5;
+   padding: 6px;
+   margin-bottom:15px;
+   margin-top: 10px;
+   border: 2px solid #c81212;
+}
+
+.preparacion .contenido-preparacion .informacion .col h4{
+    font-weight: bold;
+}
+
+.preparacion .contenido-preparacion .informacion .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.preparacion .contenido-preparacion .informacion .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #1e1e1e;
+   /* border-top: 3px solid #1e1e1e;
+    border-left: 3px solid #1e1e1e;*/
+    
+    
+}
+
+.preparacion .contenido-preparacion .informacion .col table h4{
+    font-size: 20px;  
+}
+
+.preparacion .contenido-preparacion .informacion .col table p{
+    font-size: 15px;
+}
+
+.preparacion .contenido-preparacion .informacion .col table .promedio{
+    display: block;
+    margin-top: 10px;
+    color: #790808;
+    font-weight: bold;
+}
+
+.preparacion .contenido-preparacion .informacion .col table .descripcion{
+    border-left:1px solid #1e1e1e;
+    padding: 10px;
+    /*border-right:3px solid #1e1e1e;
+    border-bottom:3px solid #1e1e1e;
+    border-top:3px solid #1e1e1e;*/
+   font-weight: bold;
+}
+ 
+.preparacion .contenido-preparacion .informacion .col .diploma{
+    margin-top: 10px;
+ /* border-bottom: 1px solid #1e1e1e;*/
+  margin-bottom: 10px;
+}
+
+.contacto{
+ background-color: #202020;
+ padding: 140px 70px 90px;
+ text-align: center;
+ display: block;
+ color: #fff;
+}
+.contacto .contenido-contacto{
+ max-width: 1000px;
+ margin: auto;
+ padding: 0 10px;
+}
+.contacto .contenido-contacto h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+.contacto .contenido-contacto h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 15px;
+   font-family:'Times New Roman', Times, serif
+
+}
+.contacto .contenido-contacto .fila{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contacto .contenido-contacto .fila .col{
+    margin-top: 20px;
+}
+.contacto .contenido-contacto .fila .col i{
+    color:#890a25fb;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.contacto .contenido-contacto .fila .col h2 span{
+    color: #e2cfcf;
+    font-size: 20px;
+   text-transform: lowercase;
+   
+}
+html{
+    scroll-behavior:smooth;
+}
+
+@media screen and (max-width:800px) {
+
+    .section1 .contenido-section header nav{
+        
+        
+    }
+
+    .section1 .contenido-section .foto img{
+        max-width:200px ;
+        border-radius: 50%;
+        border: #1e1e1e 3px solid;
+        position: absolute;
+        left: 25%;
+        top :-100px;
+    
+    }
+    .sobremi .contenido-seccion{
+        max-width:fit-content;
+    }
+
+    .sobremi .contenido-seccion .detalle{
+        font-size: 18px;
+        text-align: left;
+        margin: auto;
+        font-weight:500;
+        font-family:Arial, Helvetica, sans-serif;   
+    }
+
+    
+    .sobremi .contenido-seccion .fila{
+        display: block;
+        
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .sobremi .contenido-seccion .fila .col p{
+        text-align: center;
+        margin: auto;
+        margin-top: 2px;
+    }
+    
+    
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col .progress{
+        width: 200px;
+    }
+
+    .preparacion .contenido-preparacion .informacion{
+        font-size: 15px;
+    }
+    .preparacion .contenido-preparacion .informacion{
+       display: block;
+    }
+    .preparacion .contenido-preparacion .informacion .col{
+        width: 80%;
+        margin: auto;
+    }
+    .preparacion .contenido-preparacion .informacion .col .titulo{
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .contacto .contenido-contacto .fila{
+        display: block;
+        
+    }
+    
+}
